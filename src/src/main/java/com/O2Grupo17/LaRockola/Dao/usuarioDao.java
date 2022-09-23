@@ -1,0 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package com.O2Grupo17.LaRockola.Dao;
+
+import com.O2Grupo17.LaRockola.Model.usuario;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+/**
+ *
+ * @author DANIEL
+ */
+public interface usuarioDao extends CrudRepository<usuario,String>{
+    
+    
+}
